@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# OrganizeIt
 
-## Getting Started
+OrganizeIt is a Trello-like application built with React! It leverages the power of Next.js 13.4, GPT-4, drag and drop functionality, Zustand for state management, Appwrite Cloud for backend services, and TypeScript for type safety.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Task Management**: Create, update, delete, and move tasks across different lists.
+- **Drag & Drop**: Seamlessly move tasks using a user-friendly drag and drop interface.
+- **State Management**: Efficient state management with Zustand.
+- **AI Integration**: Utilize GPT-4 for task suggestions and automation.
+- **Backend Services**: Appwrite Cloud for user authentication and data storage.
+- **Type Safety**: Full type safety with TypeScript.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tech Stack
 
-## Learn More
+- **Frontend**: React, Next.js 13.4
+- **State Management**: Zustand
+- **Backend**: Appwrite Cloud
+- **AI Integration**: GPT-4
+- **Language**: TypeScript
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To get started with OrganizeIt, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/organizeit.git
+    cd organizeit
+    ```
 
-## Deploy on Vercel
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Set up Appwrite Cloud**:
+    - Create an account on [Appwrite Cloud](https://appwrite.io).
+    - Set up your project and get your API endpoint and project ID.
+    - Create a `.env.local` file in the root of the project and add your Appwrite credentials:
+      ```
+      NEXT_PUBLIC_APPWRITE_ENDPOINT=<Your Appwrite API Endpoint>
+      NEXT_PUBLIC_APPWRITE_PROJECT=<Your Appwrite Project ID>
+      ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. **Run the development server**:
+    ```bash
+    npm run dev
+    ```
+
+5. **Open your browser**:
+    Navigate to [http://localhost:3000](http://localhost:3000) to see the application in action.
+
+## Usage
+
+- **Creating Tasks**: Click on the "Add Task" button to create a

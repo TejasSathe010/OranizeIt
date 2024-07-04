@@ -1,6 +1,6 @@
 # OrganizeIt
 
-OrganizeIt is a Trello-like application built with React! It leverages the power of Next.js 13.4, GPT-4, drag and drop functionality, Zustand for state management, Appwrite Cloud for backend services, and TypeScript for type safety.
+OrganizeIt is a Trello-like application built with React! It leverages the power of Next.js, GPT, drag and drop functionality, Zustand for state management, Appwrite Cloud for backend services, and TypeScript for type safety.
 
 ## Table of Contents
 
@@ -23,7 +23,7 @@ OrganizeIt is a Trello-like application built with React! It leverages the power
 
 ## Tech Stack
 
-- **Frontend**: React, Next.js 13.4
+- **Frontend**: React, Next.js
 - **State Management**: Zustand
 - **Backend**: Appwrite Cloud
 - **AI Integration**: GPT-4
@@ -63,4 +63,7 @@ To get started with OrganizeIt, follow these steps:
 
 ## Usage
 
-- **Creating Tasks**: Click on the "Add Task" button to create a
+- **Creating Tasks**: Click on the "Add Task" button to create a new task.
+- **Updating Tasks**: Click on a task to edit its details.
+- **Deleting Tasks**: Click on the delete icon on a task to remove it.
+- **Moving Tasks**: Drag and drop tasks to move them between lists.

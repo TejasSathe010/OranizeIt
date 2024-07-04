@@ -49,8 +49,12 @@ To get started with OrganizeIt, follow these steps:
     - Set up your project and get your API endpoint and project ID.
     - Create a `.env.local` file in the root of the project and add your Appwrite credentials:
       ```
-      NEXT_PUBLIC_APPWRITE_ENDPOINT=<Your Appwrite API Endpoint>
-      NEXT_PUBLIC_APPWRITE_PROJECT=<Your Appwrite Project ID>
+
+      NEXT_PUBLIC_APPWRITE_PROJECT_ID=
+      NEXT_PUBLIC_DATABASE_ID=
+      NEXT_PUBLIC_TODOS_COLLECTION_ID=
+      OPENAI_API_KEY=
+      NEXT_PUBLIC_IMAGE_BUCKET_ID=
       ```
 
 4. **Run the development server**:

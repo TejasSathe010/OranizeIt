@@ -8,9 +8,6 @@ OrganizeIt is a Trello-like application built with React! It leverages the power
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 

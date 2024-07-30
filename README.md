@@ -2,6 +2,8 @@
 
 OrganizeIt is a Trello-like application built with React! It leverages the power of Next.js, GPT, drag and drop functionality, Zustand for state management, Appwrite Cloud for backend services, and TypeScript for type safety.
 
+![Demo of project features](https://github.com/TejasSathe010/OranizeIt/blob/main/organizeIt.gif)
+
 ## Table of Contents
 
 - [Features](#features)
